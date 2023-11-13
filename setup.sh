@@ -6,6 +6,7 @@ apt-get install apache2 -y
 
 #virtualhost
 
+cp -r /etc/backups/grup8vc2324-html /var/www/grup8vc2324/
 cp /etc/backups/grup8vc2324.conf /etc/apache2/sites-available
 a2dissite 000-default.conf
 a2ensite grup8vc2324.conf
